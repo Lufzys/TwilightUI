@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33403.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwilightUI", "TwilightUI\TwilightUI.csproj", "{45AC5B55-6BCD-40AE-8923-42AC1E7AD1F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo", "Demo\Demo.csproj", "{3DA4122F-649B-4EE4-ADF2-F589FDF202A4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{45AC5B55-6BCD-40AE-8923-42AC1E7AD1F9} = {45AC5B55-6BCD-40AE-8923-42AC1E7AD1F9}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{45AC5B55-6BCD-40AE-8923-42AC1E7AD1F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45AC5B55-6BCD-40AE-8923-42AC1E7AD1F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45AC5B55-6BCD-40AE-8923-42AC1E7AD1F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45AC5B55-6BCD-40AE-8923-42AC1E7AD1F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DA4122F-649B-4EE4-ADF2-F589FDF202A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DA4122F-649B-4EE4-ADF2-F589FDF202A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DA4122F-649B-4EE4-ADF2-F589FDF202A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DA4122F-649B-4EE4-ADF2-F589FDF202A4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {800FB4AF-F567-4A0F-9DAE-731FAFCB1D56}
+	EndGlobalSection
+EndGlobal
